@@ -16,12 +16,14 @@ input:checked ~ .father span:first-of-type {
 body {
   font-family: helvetica, arial, sans-serif;
 	font-weight: bold;
-  background-image: url("BG_vapor.jpg");
+  background-image: url("BG_grid.png");
   padding: 2em 5em;
 	font-size: 1.4em;
-  background-size: 150%;
+  background-size: 256px;
+  background-repeat: repeat;
 
 }
+
 input[type=checkbox] {
 	transform: scale(1.4);
 }
@@ -62,6 +64,16 @@ input[type=checkbox] {
 h1 {
   margin-bottom: 1.6em;
 	color: #fffb96;
+  background-color: #ff71ce;
+  text-align: center;
+  text-shadow: 5px 5px #b967ff;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: groove;
+  border-width: thick;
+  max-width: 20em;
+
+
 
 }
 p {
@@ -74,4 +86,5 @@ p a {
 }
 label{
   color: #ff71ce;
+  background-color: #fffb96;
 }
