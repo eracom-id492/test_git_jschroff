@@ -16,9 +16,11 @@ input:checked ~ .father span:first-of-type {
 body {
   font-family: helvetica, arial, sans-serif;
 	font-weight: bold;
-	background: #05ffa1;
-	padding: 2em 5em;
+  background-image: url("BG_vapor.jpg");
+  padding: 2em 5em;
 	font-size: 1.4em;
+  background-size: 150%;
+
 }
 input[type=checkbox] {
 	transform: scale(1.4);
@@ -59,14 +61,17 @@ input[type=checkbox] {
 }
 h1 {
   margin-bottom: 1.6em;
-	color: #777;
+	color: #fffb96;
 
 }
 p {
 	margin-top: 4em;
 	font-size: 0.6em;
-	color: #777;
+	color: #fffb96;
 }
 p a {
-	color: #777;
+	color: #fffb96;
+}
+label{
+  color: #ff71ce;
 }
