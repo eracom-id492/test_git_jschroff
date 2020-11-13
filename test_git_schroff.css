@@ -7,9 +7,12 @@
 	flex-direction: column;
 	width: .8em;
 	text-align: center;
+	border-style: groove;
+  border-width: thick;
 }
 input:checked ~ .father span:first-of-type {
 	flex-direction: column-reverse;
+
 }
 
 /* deco */
@@ -54,12 +57,14 @@ input[type=checkbox] {
 	background: #fffb96;
 	color: #ff71ce;
 	overflow: hidden;
+
 }
 .father span:first-of-type i:first-of-type {
   margin-left: -8px;
 	margin-right: -8px;
 	background: #b967ff;
 	color: #01cdfe;
+
 }
 h1 {
   margin-bottom: 1.6em;
@@ -83,8 +88,48 @@ p {
 }
 p a {
 	color: #fffb96;
+
 }
 label{
   color: #ff71ce;
   background-color: #fffb96;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: groove;
+  border-width: thick;
+}
+
+span{
+	border-style: groove;
+	border-width: thick;
+
+}
+input{
+	width: 20px;
+	height: 20px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+	z-index: -1;
+	margin: auto;
+	min-width: 100%;
+	min-height: 100%
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
